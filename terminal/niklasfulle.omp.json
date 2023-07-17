@@ -44,19 +44,6 @@
                     "type": "path"
                 },
                 {
-                    "background": "#242424",
-                    "foreground": "#00ff40",
-                    "powerline_symbol": "\ue0b0",
-                    "properties": {
-                        "fetch_stash_count": true,
-                        "fetch_status": true,
-                        "fetch_upstream_icon": true
-                    },
-                    "style": "powerline",
-                    "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
-                    "type": "git"
-                },
-                {
                     "background": "#0184bc",
                     "foreground": "#ffffff",
                     "powerline_symbol": "\ue0c4",
