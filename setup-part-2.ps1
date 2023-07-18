@@ -2,6 +2,9 @@
 # install github
 winget install -e --id Git.Git
 
+# install curl
+winget install -e --id cURL.cURL
+
 # install visual studio code
 winget install -e --id Microsoft.VisualStudioCode
 
@@ -42,19 +45,34 @@ winget install -e --id MongoDB.Compass.Full
 
 winget install -e --id Docker.DockerDesktop
 
+
+# install Postman
+
+winget install -e --id Postman.Postman
+
+# install nvm 
+
+winget install -e --id CoreyButler.NVMforWindows
+
+# install nodejs
+
+nvm install lts
+
+nvm use lts
+
 # install yarn
 
 npm install -g yarn
 
+
 # install python
 
-winget install -e --id Python.Python
+winget install -e --id Python.Python.3.11
+
+winget install -e --id Anaconda.Anaconda3
 
 # install rust
 
-winget install -e --id Rustlang.Rust-msvc
+# install java 
 
-# install java
-
-winget install -e --id OpenJDK.OpenJDK
-
+# intall C

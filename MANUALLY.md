@@ -1,4 +1,4 @@
-# Windows-Setup-Script
+# Manual downloads
 
 ## Table of Contents
 
@@ -23,3 +23,4 @@ Anything related to programming
 
 ## Software
 
+-   [Trello](https://trello.com/de/platforms)
