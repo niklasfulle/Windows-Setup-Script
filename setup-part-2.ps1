@@ -73,6 +73,10 @@ winget install -e --id Anaconda.Anaconda3
 
 # install rust
 
+winget install -e --id Rustlang.Rustup
+
+
+
 # install java 
 
 # intall C
