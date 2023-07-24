@@ -1,0 +1,119 @@
+{
+    "editor.matchBrackets": "never",
+    "php.executablePath": "C:\\xampp\\php\\php.exe",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "problems.showCurrentInStatus": true,
+    "editor.suggest.showStatusBar": true,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": null
+        }
+    ],
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "bracketPairColorizer.depreciation-notice": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "explorer.confirmDelete": false,
+    "prettier.printWidth": 100,
+    "files.autoSave": "afterDelay",
+    "svelte.ask-to-enable-ts-plugin": false,
+    "svelte.plugin.svelte.useNewTransformation": false,
+    "svelte.plugin.svelte.note-new-transformation": false,
+    "files.associations": {
+        "*.svelte": "svelte"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.unicodeHighlight.allowedCharacters": {
+        "ö": true,
+        "ß": true,
+        "ä": true
+    },
+    "git.enableSmartCommit": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "prettier.tabWidth": 4,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "editor.accessibilitySupport": "off",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "code-runner.runInTerminal": true,
+    "vscode-pets.theme": "forest",
+    "vscode-pets.petType": "fox",
+    "vscode-pets.petSize": "small",
+    "haskell.manageHLS": "PATH",
+    "editor.tabSize": 2,
+    "update.showReleaseNotes": false,
+    "workbench.colorTheme": "Default Dark+",
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+    "terminal.integrated.fontWeight": "normal",
+    "liveServer.settings.donotShowInfoMsg": true
+}
