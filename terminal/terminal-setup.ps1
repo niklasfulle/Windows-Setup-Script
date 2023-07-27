@@ -6,7 +6,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 New-Item -Path $PROFILE -Type File -Force
 
-"oh-my-posh init pwsh --config 'C:\Users\Niklas\AppData\Local\Programs\oh-my-posh\themes\niklasfulle.omp.json' | Invoke-Expression" | Out-File -FilePath $PROFILE
+"oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/niklasfulle/Windows-Setup-Script/main/terminal/niklasfulle.omp.json' | Invoke-Expression" | Out-File -FilePath $PROFILE
 
 . $PROFILE
 
